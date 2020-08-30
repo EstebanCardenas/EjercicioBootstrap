@@ -1,0 +1,67 @@
+/* elements */
+header {
+    padding: 6vh 0px;
+    justify-content: center;
+}
+
+nav {
+    padding: 1vh 0px;
+    justify-content: center;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    justify-content: center;
+}
+
+div > div[class^="col"] > h1 {
+    font-size: x-large;
+    vertical-align: middle;
+}
+
+/* classes */
+.bg-brown {
+    background-color: #52361b;
+    color: white;
+}
+
+.bg-skin {
+    background-color: #a1665e;
+    color: black;
+}
+
+.bg-gray {
+    background-color: rgb(223, 223, 223);
+    color: black;
+    padding: 10vh 0px;
+    justify-content: center;
+}
+
+.bg-orange {
+    background-color: orange;
+    color: black;
+}
+
+.photo_a {
+    background-color: rgb(165, 48, 48);
+    color: black;
+}
+
+.photo_b {
+    background-color: rgb(51, 143, 185);
+    color: black;
+}
+
+.w-100 {
+    display: none;
+}
+
+/* media queries */
+@media (max-width: 700px) {
+    aside {
+        display: none;
+    }
+}
